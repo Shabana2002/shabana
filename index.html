@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shabana A — Portfolio</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-pink" href="#">SHABANA A</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navCollapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#internships">Internships </a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="py-5 bg-soft-pink">
+  <div class="container d-lg-flex align-items-center gap-4">
+    <div class="avatar-wrap">
+      <img src="avatar.jpeg" alt="Shabana avatar" class="avatar-img">
+    </div>
+    <div>
+      <h1 class="display-6 fw-bold"><span id="typed"></span></h1>
+      <p class="lead text-muted mb-3">B.Tech IT grad | Aspiring Data Scientist | Upskilling in Python, AI, ML & Power BI</p>
+      <div class="d-flex gap-2">
+        <a href="resume.pdf" class="btn btn-pink btn-lg" download>Download Resume</a>
+        <a href="#contact" class="btn btn-outline-pink btn-lg">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container my-5">
+
+  <section id="about" class="mb-5">
+    <div class="card p-4 shadow-sm">
+      <h2>👩‍💻 About Me</h2>
+      <p>
+        I love getting lost in a good novel, binge-watching movies and series 🍿, and exploring new places whenever I can.</p>
+
+<p>I recently graduated with a B.Tech in IT and a minor in Electronics and Communication. I am currently learning Python Data Science, Artificial Intelligence, Machine Learning, and Power BI. I am eager to grow and see where this path leads me 🚀.</p>
+
+<p>Along the way, I have developed strong teamwork and leadership skills through roles such as Placement Representative and Department Secretary 🤝. I enjoy collaborating with others and taking on new challenges.</p>
+
+<p>Curious and motivated, I’m excited to build my skills and make a meaningful impact, one step at a time 🌱.</p>
+
+
+    </div>
+  </section>
+
+  <section id="education" class="my-5">
+  <h2 class="section-title">🎓 Education</h2>
+  <div class="card p-4 shadow-sm" style="max-width: 600px; margin: auto;">
+    <h3>B.Tech in Information Technology (2025)</h3>
+    <ul>
+      <li>Minor in Electronics and Communication Engineering.</li>
+      <li>MEA Engineering College, Affiliated to APJ Abdul Kalam Technological University.</li>
+    </ul>
+  </div>
+</section>
+
+
+
+  <section id="projects" class="mb-5">
+  <h2>💻 Projects</h2>
+  <!-- Bootstrap Carousel for projects -->
+  <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Brain Tumour Project with image -->
+      <div class="carousel-item active">
+        <div class="card p-4 text-center" style="max-width: 600px; margin: auto;">
+          <img src="brain tumour.jpeg" alt="Brain Tumour Detection" style="width:100%; max-height: 200px; object-fit: cover; border-radius: 12px; margin-bottom: 15px;">
+          <h3>Deep Learning Technique for Brain Tumor Detection</h3>
+          <ul class="text-start">
+            <li>Built a mobile and web app for MRI-based brain tumor detection with segmentation and
+            prediction.</li>
+          <li> Integrated modules for users, doctors, and hospitals, including appointment booking and e
+          prescription features.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Labor-Link Project with placeholder image -->
+      <div class="carousel-item">
+        <div class="card p-4 text-center" style="max-width: 600px; margin: auto;">
+          <img src="laborlink.webp" alt="Labor Link Connect" style="width:100%; max-height: 200px; object-fit: cover; border-radius: 12px; margin-bottom: 15px;">
+          <h3>Labor – Link Connect</h3>
+          <ul class="text-start">
+           <li>Created a web platform connecting users with local workers for services like plumbing and
+            gardening.</li>
+            <li>Developed real-time request management for booking and contractor responses.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Coming Soon Placeholder -->
+      <div class="carousel-item">
+        <div class="card p-4 d-flex align-items-center justify-content-center" style="max-width: 600px; height: 400px; margin: auto; background: #f7e1ec; border: 2px dashed var(--accent); border-radius: 12px;">
+          <h3 class="text-pink text-center">✨ Coming Soon: Exciting New Project!</h3>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+
+  <section id="internships" class="my-5">
+  <h2 class="section-title">💼 Internships</h2>
+
+  <div id="internshipsCarousel" class="carousel slide shadow-sm" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- ICFOSS Internship -->
+      <div class="carousel-item active">
+        <div class="card border-0 p-4 text-center">
+          <img
+            src="icfoss_intern.jpeg"
+            class="d-block mx-auto rounded shadow-sm internship-img"
+            alt="ICFOSS Internship"
+            style="cursor:pointer;"
+            onclick="showImagePreview('icfoss_intern.jpeg', 'ICFOSS Internship')">
+          <div class="card-body mt-3">
+            <h5 class="fw-bold text-pink">Intern — ICFOSS</h5>
+            <p class="text-muted mb-1"><em>Sept 2024 – Aug 2025</em></p>
+            <p>Contributed to IoT-based rainwater detection projects under mentor supervision. Focused on hardware inspection, data monitoring, and component maintenance at the <strong>International Centre for Free and Open Source Software (ICFOSS)</strong>.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Freelance Canva Course -->
+      <div class="carousel-item">
+        <div class="card border-0 p-4 text-center">
+          <div class="card-body">
+            <img
+              src="canva_logo.png"
+              class="d-block mx-auto mb-3"
+              alt="canva Logo"
+              style="width:60px; height:auto;">
+            <h5 class="fw-bold text-pink">Freelance Canva Educator</h5>
+            <p class="text-muted mb-1"><em>May 2024 – Jun 2024</em></p>
+            <p>Designed and delivered a self-paced Canva course featuring bite-sized lessons, templates, and practical design exercises to help learners enhance their creative skills.</p>
+            <a href="https://drive.google.com/drive/folders/1nzfvE88s5fUpooZvg82hLOelt4EYe56N"
+               target="_blank"
+               class="btn btn-outline-pink btn-sm fw-bold mt-2">
+               🔗 View Course
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#internshipsCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#internshipsCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+  <!-- ========================= SKILLS SECTION ========================= -->
+<section id="skills" class="my-5">
+  <h2 class="section-title">🛠️ Skills</h2>
+
+  <div class="card p-4 shadow-sm">
+    <h5 class="fw-bold text-pink mb-2">Technical Skills</h5>
+    <div class="skill-tags">
+      <span>Python</span>
+      <span>C</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Microsoft Office Suite</span>
+    </div>
+
+    <h5 class="fw-bold text-pink mt-4 mb-2">Soft Skills</h5>
+    <div class="skill-tags">
+      <span>Team Collaboration</span>
+      <span>Communication</span>
+      <span>Adaptability</span>
+      <span>Time Management</span>
+    </div>
+  </div>
+</section>
+
+  <!-- ========================= LEADERSHIP SECTION ========================= -->
+<section id="leadership" class="my-5">
+  <h2 class="section-title">💡 Leadership & Representation</h2>
+  <div class="card p-4 shadow-sm">
+    <ul class="leadership-list">
+      <li>Served as <strong>Secretary</strong> of the IT Department Association, organizing technical workshops and events to enhance engagement between students and faculty.</li>
+      <li>Represented peers as <strong>Student Placement Representative</strong>, coordinating placement activities and communication with recruiters.</li>
+      <li>Acted as <strong>Class Representative</strong> for four consecutive academic years, ensuring smooth coordination between faculty and students.</li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- ========================= LANGUAGES SECTION ========================= -->
+<section id="languages" class="my-5">
+  <h2 class="section-title">🌍 Languages</h2>
+  <div class="card p-4 shadow-sm">
+    <p>Malayalam
+      <span class="stars">⭐⭐⭐⭐⭐</span>
+    </p>
+    <p>English
+      <span class="stars">⭐⭐⭐⭐⭐</span>
+    </p>
+    <p>Hindi
+      <span class="stars">⭐⭐⭐⭐☆</span>
+    </p>
+     <p>Tamil
+      <span class="stars">⭐⭐⭐⭐☆</span>
+    </p>
+  </div>
+</section>
+
+  <section id="certificates" class="mb-5">
+    <h2>📜 Certificates</h2>
+
+
+    <div class="row g-3" id="certGrid">
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+
+            <img src="cert_thumb_1.jpg" alt="Certificate 1" class="img-fluid thumb-img" data-file="cert_thumb_1.jpg">
+
+            <div class="card-body p-2">
+            <small class="text-muted">Certificate 1</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_2.jpg" alt="Certificate 2" class="img-fluid thumb-img" data-file="cert_thumb_2.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 2</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_3.jpg" alt="Certificate 3" class="img-fluid thumb-img" data-file="cert_thumb_3.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 3</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_4.jpg" alt="Certificate 4" class="img-fluid thumb-img" data-file="cert_thumb_4.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 4</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_5.jpg" alt="Certificate 5" class="img-fluid thumb-img" data-file="cert_thumb_5.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 5</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_6.JPEG" alt="Certificate 6" class="img-fluid thumb-img" data-file="cert_thumb_6.JPEG">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 6</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_7.jpg" alt="Certificate 7" class="img-fluid thumb-img" data-file="cert_thumb_7.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 7</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_8.jpg" alt="Certificate 8" class="img-fluid thumb-img" data-file="cert_thumb_8.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 8</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_9.jpg" alt="Certificate 9" class="img-fluid thumb-img" data-file="cert_thumb_9.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 9</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_10.jpg" alt="Certificate 10" class="img-fluid thumb-img" data-file="cert_thumb_10.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 10</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_11.jpg" alt="Certificate 11" class="img-fluid thumb-img" data-file="cert_thumb_11.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 11</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_12.jpg" alt="Certificate 12" class="img-fluid thumb-img" data-file="cert_thumb_12.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 12</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_13.jpg" alt="Certificate 13" class="img-fluid thumb-img" data-file="cert_thumb_13.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 13</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_14.jpg" alt="Certificate 14" class="img-fluid thumb-img" data-file="cert_thumb_14.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 14</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card thumb-card">
+          <img src="cert_thumb_15.jpg" alt="Certificate 15" class="img-fluid thumb-img" data-file="cert_thumb_15.jpg">
+          <div class="card-body p-2">
+            <small class="text-muted">Certificate 15</small>
+          </div>
+        </div>
+        </div>
+        <div class="col-6 col-md-3">
+  <div class="card thumb-card">
+    <img src="cert_thumb_16.jpg" alt="Certificate 16" class="img-fluid thumb-img" data-file="cert_thumb_16.jpg" style="cursor:pointer;" onclick="showImagePreview('cert_thumb_16.jpg', 'Certificate 16')">
+    <div class="card-body p-2">
+      <small class="text-muted">Certificate 16</small>
+    </div>
+  </div>
+</div>
+    </div>
+
+
+    <section id="achievements" class="mb-5">
+  <h2>Achievements</h2>
+  <div class="row g-3">
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card thumb-card">
+        <img src="achievement_1.jpeg" alt="Achievement 1" class="img-fluid thumb-img" style="cursor:pointer;" onclick="showImagePreview('achievement_1.jpeg', 'Achievement 1')">
+        <div class="card-body p-2">
+          <small class="text-muted">🌟 Achievement 1</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card thumb-card">
+        <img src="achievement_2.jpeg" alt="Achievement 2" class="img-fluid thumb-img" style="cursor:pointer;" onclick="showImagePreview('achievement_2.jpeg', 'Achievement 2')">
+        <div class="card-body p-2">
+          <small class="text-muted">Achievement 2</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card thumb-card">
+        <img src="achievement_3.jpeg" alt="Achievement 3" class="img-fluid thumb-img" style="cursor:pointer;" onclick="showImagePreview('achievement_3.jpeg', 'Achievement 3')">
+        <div class="card-body p-2">
+          <small class="text-muted">Achievement 3</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card thumb-card">
+        <img src="achievement_4.jpeg" alt="Achievement 4" class="img-fluid thumb-img" style="cursor:pointer;" onclick="showImagePreview('achievement_4.jpeg', 'Achievement 4')">
+        <div class="card-body p-2">
+          <small class="text-muted">Achievement 4</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card thumb-card">
+        <img src="achievement_5.jpeg" alt="Achievement 5" class="img-fluid thumb-img" style="cursor:pointer;" onclick="showImagePreview('achievement_5.jpeg', 'Achievement 5')">
+        <div class="card-body p-2">
+          <small class="text-muted">Achievement 5</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card thumb-card">
+        <img src="achievement_6.jpeg" alt="Achievement 6" class="img-fluid thumb-img" style="cursor:pointer;" onclick="showImagePreview('achievement_6.jpeg', 'Achievement 6')">
+        <div class="card-body p-2">
+          <small class="text-muted">Achievement 6</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </section>
+
+  <!-- ========================= CONTACT SECTION ========================= -->
+<section id="contact" class="my-5">
+  <h2 class="section-title">📞 Contact</h2>
+  <div class="card p-4 shadow-sm">
+    <p>Email: <a href="mailto:ambattshabana2002@gmail.com">ambattshabana2002@gmail.com</a></p>
+    <p>Phone: +91 8606213723</p>
+    <p>LinkedIn:
+      <a href="https://www.linkedin.com/in/shabana-ambatt-96a2a3283" target="_blank" class="text-pink fw-bold">
+        View Profile
+      </a>
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- Back to top button -->
+<button id="backTop" class="btn btn-pink btn-floating" title="Back to top">↑</button>
+
+<!-- Lightbox modal for images and PDF viewer -->
+<div class="modal fade" id="previewModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body p-0 position-relative">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"></button>
+        <div id="previewArea" class="w-100" style="min-height:60vh;display:flex;align-items:center;justify-content:center;background:#fff0f6"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
