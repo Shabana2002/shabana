@@ -110,5 +110,5 @@ body{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial
 .card ul,
 .card li,
 .card small {
-  text-align: center;
+  text-align: left;
 }
