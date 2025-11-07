@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // Typing effect
   const typedEl = document.getElementById('typed');
-  const text = 'Hi — I\'m Shabana A';
+  const text = 'Hi, I\'m Shabana A';
   let idx = 0;
   function type(){ if(idx<=text.length){ typedEl.textContent = text.slice(0, idx); idx++; setTimeout(type, 50); } }
   type();
